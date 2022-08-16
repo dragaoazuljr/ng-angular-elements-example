@@ -1,0 +1,6 @@
+<div class="app-component-root">
+  <h1>root</h1>
+  <input (change)="onChange($event)" />
+  <button (click)="toggleChild()">Mostrar</button>
+  <ng-child *ngIf="show" title="{{title}}"></ng-child>
+</div>
