@@ -2,5 +2,6 @@
   <h1>root</h1>
   <input (change)="onChange($event)" />
   <button (click)="toggleChild()">Mostrar</button>
-  <ng-child *ngIf="show" title="{{title}}"></ng-child>
+  <ng-child *ngIf="show" [title]="obj"></ng-child>
+  <react-child *ngIf="show" [title]="obj"></react-child>
 </div>

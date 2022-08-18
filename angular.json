@@ -31,7 +31,7 @@
               "projects/ng-root/src/styles.scss"
             ],
             "scripts": [
-              "dist/ng-child/main.js"
+              "/dist/ng-child/main.js"
             ]
           },
           "configurations": {

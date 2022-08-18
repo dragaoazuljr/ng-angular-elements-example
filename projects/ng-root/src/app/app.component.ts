@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'child';
+  obj = {name: this.title};
   show = false;
 
   toggleChild() {
@@ -15,5 +16,6 @@ export class AppComponent {
 
   onChange(e: any) {
     this.title = e?.target?.value;
+    this.obj = {name: this.title};
   }
 }
